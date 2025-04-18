@@ -1,0 +1,10 @@
+site_name: Stardew Fishing Wiki
+theme:
+  name: material
+  logo: assets/favicon.png
+  favicon: assets/favicon.png
+  palette:
+    - scheme: slate
+      primary: custom
+extra_css:
+  - stylesheets/extra.css
