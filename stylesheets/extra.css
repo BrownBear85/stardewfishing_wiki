@@ -1,8 +1,30 @@
 :root {
-    --md-primary-fg-color:        #ffa653; /* #ffa653 orange #3894ef blue */
-    --md-primary-fg-color--light: #00ff00;
-    --md-primary-fg-color--dark:  #0000ff;
+    --md-primary-fg-color: #ffa653;
+    --md-primary-fg-color--dark: #3894ef;
+    --md-accent-fg-color: #3894ef;
+    --md-accent-fg-color--transparent: #3894ef19;
 }
 [data-md-color-scheme="slate"] {
-    --md-hue: 209; 
+    --md-hue: 209;
+    --md-default-fg-color--lighter: #e0d2c5;
+}
+.sf-rounded {
+    border-radius: 12px;
+    overflow: hidden;
+}
+.sf-half {
+    width: 50%;
+}
+.sf-fifth {
+    width: 20%;
+}
+.sf-image-row {
+    font-size: 0;
+}
+.sf-image-row img {
+    display: inline-block;
+    vertical-align: top;
+}
+.noWrap {
+    text-wrap: nowrap
 }
